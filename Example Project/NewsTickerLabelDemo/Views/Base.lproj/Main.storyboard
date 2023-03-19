@@ -115,7 +115,7 @@
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="scrollsToLeft" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="Same as the one above but is animating from right to left."/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="Same as the one above but is animating from left to right."/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
@@ -132,7 +132,7 @@
                     <connections>
                         <outlet property="newsTickerLabel_LongText" destination="FyW-az-0hX" id="Gqv-0S-EgI"/>
                         <outlet property="newsTickerLabel_LongText_NoDelay" destination="thw-Vz-KHf" id="RYX-u4-tgM"/>
-                        <outlet property="newsTickerLabel_LongText_NoDelay_RightToLeft" destination="5uH-pR-h2e" id="YW4-O8-qBJ"/>
+                        <outlet property="newsTickerLabel_LongText_NoDelay_LeftToRight" destination="5uH-pR-h2e" id="YW4-O8-qBJ"/>
                         <outlet property="newsTickerLabel_ShortText" destination="ZMg-py-nSH" id="HbM-lu-8mg"/>
                     </connections>
                 </viewController>

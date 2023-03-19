@@ -13,7 +13,7 @@ class MainVC: UIViewController {
     @IBOutlet weak var newsTickerLabel_ShortText: NewsTickerLabel!
     @IBOutlet weak var newsTickerLabel_LongText: NewsTickerLabel!
     @IBOutlet weak var newsTickerLabel_LongText_NoDelay: NewsTickerLabel!
-    @IBOutlet weak var newsTickerLabel_LongText_NoDelay_RightToLeft: NewsTickerLabel!
+    @IBOutlet weak var newsTickerLabel_LongText_NoDelay_LeftToRight: NewsTickerLabel!
     
     override var preferredStatusBarStyle: UIStatusBarStyle { return .darkContent }
     override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation { return .portrait }
@@ -30,7 +30,7 @@ class MainVC: UIViewController {
         newsTickerLabel_ShortText.activate()
         newsTickerLabel_LongText.activate()
         newsTickerLabel_LongText_NoDelay.activate()
-        newsTickerLabel_LongText_NoDelay_RightToLeft.activate()
+        newsTickerLabel_LongText_NoDelay_LeftToRight.activate()
     }
 
 }
