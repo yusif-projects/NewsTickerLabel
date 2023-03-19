@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D410275D29C77945006C5E58 /* NewsTickerLabel in Frameworks */ = {isa = PBXBuildFile; productRef = D410275C29C77945006C5E58 /* NewsTickerLabel */; };
 		D4A6E2D929C74A6C008E4382 /* App & Scene Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A6E2D829C74A6C008E4382 /* App & Scene Delegates.swift */; };
 		D4A6E2DD29C74A6C008E4382 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A6E2DC29C74A6C008E4382 /* MainVC.swift */; };
 		D4A6E2E029C74A6C008E4382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A6E2DE29C74A6C008E4382 /* Main.storyboard */; };
 		D4A6E2E229C74A6D008E4382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A6E2E129C74A6D008E4382 /* Assets.xcassets */; };
 		D4A6E2E529C74A6D008E4382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A6E2E329C74A6D008E4382 /* LaunchScreen.storyboard */; };
-		D4A6E30129C758D9008E4382 /* NewsTickerLabel in Frameworks */ = {isa = PBXBuildFile; productRef = D4A6E30029C758D9008E4382 /* NewsTickerLabel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A6E30129C758D9008E4382 /* NewsTickerLabel in Frameworks */,
+				D410275D29C77945006C5E58 /* NewsTickerLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			);
 			name = NewsTickerLabelDemo;
 			packageProductDependencies = (
-				D4A6E30029C758D9008E4382 /* NewsTickerLabel */,
+				D410275C29C77945006C5E58 /* NewsTickerLabel */,
 			);
 			productName = NewsTickerLabelDemo;
 			productReference = D4A6E2D529C74A6C008E4382 /* NewsTickerLabelDemo.app */;
@@ -146,7 +146,7 @@
 			);
 			mainGroup = D4A6E2CC29C74A6B008E4382;
 			packageReferences = (
-				D4A6E2FF29C758D9008E4382 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */,
+				D410275B29C77945006C5E58 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */,
 			);
 			productRefGroup = D4A6E2D629C74A6C008E4382 /* Products */;
 			projectDirPath = "";
@@ -402,20 +402,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D4A6E2FF29C758D9008E4382 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */ = {
+		D410275B29C77945006C5E58 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yusif-projects/NewsTickerLabel";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D4A6E30029C758D9008E4382 /* NewsTickerLabel */ = {
+		D410275C29C77945006C5E58 /* NewsTickerLabel */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D4A6E2FF29C758D9008E4382 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */;
+			package = D410275B29C77945006C5E58 /* XCRemoteSwiftPackageReference "NewsTickerLabel" */;
 			productName = NewsTickerLabel;
 		};
 /* End XCSwiftPackageProductDependency section */

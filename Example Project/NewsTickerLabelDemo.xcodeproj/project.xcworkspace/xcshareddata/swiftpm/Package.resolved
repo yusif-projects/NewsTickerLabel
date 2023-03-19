@@ -5,9 +5,9 @@
         "package": "NewsTickerLabel",
         "repositoryURL": "https://github.com/yusif-projects/NewsTickerLabel",
         "state": {
-          "branch": "main",
-          "revision": "cfa68abbd58c14397dd3b37caae47a498ad684f5",
-          "version": null
+          "branch": null,
+          "revision": "b759d438cb9b6d558c496d90a3e3acff18595ed8",
+          "version": "1.0.0"
         }
       }
     ]
