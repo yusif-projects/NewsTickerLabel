@@ -169,20 +169,24 @@ import UIKit
             translation = getLabelWidth() + padding
         }
         
-        UIView.animate(withDuration: duration, delay: delay, options: .curveLinear) {
-            self.stackView.transform = CGAffineTransform(translationX: translation, y: 0)
-        } completion: { _ in
-            var copy: UILabel = UILabel()
-            
-            if self.scrollsToLeft {
-                copy = self.stackView.arrangedSubviews.last as! UILabel
-            } else {
-                copy = self.stackView.arrangedSubviews.first as! UILabel
+        UIView.animate(withDuration: duration, delay: delay, options: .curveLinear) { [weak self] in
+            if let strongSelf = self {
+                strongSelf.stackView.transform = CGAffineTransform(translationX: translation, y: 0)
             }
-            
-            copy.removeFromSuperview()
-            
-            self.setupAnimation()
+        } completion: { [weak self] _ in
+            if let strongSelf = self {
+                var copy: UILabel = UILabel()
+                
+                if strongSelf.scrollsToLeft {
+                    copy = strongSelf.stackView.arrangedSubviews.last as! UILabel
+                } else {
+                    copy = strongSelf.stackView.arrangedSubviews.first as! UILabel
+                }
+                
+                copy.removeFromSuperview()
+                
+                strongSelf.setupAnimation()
+            }
         }
     }
     
