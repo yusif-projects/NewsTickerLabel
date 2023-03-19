@@ -5,6 +5,9 @@ NewsTickerLabel is a customizable UI element written in Swift that animates a la
 ![iOS 13.0+](https://img.shields.io/badge/iOS-13.0%2B-blue.svg)
 ![Swift 5.5+](https://img.shields.io/badge/Swift-5.5%2B-orange.svg)
 
+![Follow](https://img.shields.io/github/followers/yusif-projects?style=social)
+![Star](https://img.shields.io/github/stars/yusif-projects/NewsTickerLabel?style=social)
+
 ## Installation
 
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
@@ -39,6 +42,15 @@ let package = Package(
 
 ## Usage
 
+You can find a [demo application](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of NewsTickerLabel.
+
+### Using UIStoryBoard Interface Builder
+
+- Drag and drop a **UIView** object from the ***object library***.
+- In the ***identity inspector*** change the class from **UIView** to **NewsTickerLabel**.
+- Customize the parameters in the ***attributes inspector***.
+- Connect the **NewsTickerLabel** object to your controller by creating an outlet.
+
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
