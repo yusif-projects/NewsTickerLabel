@@ -25,11 +25,11 @@ import UIKit
     private var label: UILabel!
     
     public override func draw(_ rect: CGRect) {
-        super.draw(rect)
-        
         setupBackgroundView()
         setupStackView()
         setupLabel()
+        
+        super.draw(rect)
     }
     
     private func setupBackgroundView() {
