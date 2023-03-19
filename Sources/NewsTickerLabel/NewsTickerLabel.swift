@@ -125,7 +125,7 @@ import UIKit
         return frame.size.width
     }
     
-    func activate() {
+    public func activate() {
         let labelWidth = getLabelWidth()
         let width = getWidth() - padding * 2
         
