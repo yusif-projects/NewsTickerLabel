@@ -5,6 +5,8 @@ NewsTickerLabel is a customizable UI element written in Swift that animates a la
 ![iOS 13.0+](https://img.shields.io/badge/iOS-13.0%2B-blue.svg)
 ![Swift 5.5+](https://img.shields.io/badge/Swift-5.5%2B-orange.svg)
 
+![License](https://img.shields.io/github/license/yusif-projects/NewsTickerLabel)
+
 ![Follow](https://img.shields.io/github/followers/yusif-projects?style=social)
 ![Star](https://img.shields.io/github/stars/yusif-projects/NewsTickerLabel?style=social)
 
