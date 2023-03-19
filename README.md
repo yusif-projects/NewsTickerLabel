@@ -41,13 +41,13 @@ let package = Package(
 
 ## 🏗 Usage
 
-You can find a [example project](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of `NewsTickerLabel`.
+You can find an [example project](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) in this repository that demonstrates the usage of `NewsTickerLabel`.
 
 ### Using UIStoryBoard Interface Builder
 
 - Drag and drop a `UIView` object from the ***object library***.
 
-<img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Object%20Library.png" width="300"/>
+<img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Object%20Library.png" width="500"/>
 
 - In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
 
