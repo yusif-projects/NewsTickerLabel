@@ -11,8 +11,6 @@ let package = Package(
         .library(name: "NewsTickerLabel", targets: ["NewsTickerLabel"])
     ],
     
-    dependencies: [],
-    
     targets: [
         .target(name: "NewsTickerLabel", dependencies: [])
     ]
