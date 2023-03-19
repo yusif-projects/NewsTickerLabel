@@ -50,7 +50,9 @@
                                         <rect key="frame" x="0.0" y="45" width="414" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="Long text content that does not fit the screen."/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text">
+                                                <string key="value">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at ligula et enim molestie ornare. Suspendisse pulvinar vitae magna iaculis venenatis.</string>
+                                            </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
@@ -67,7 +69,7 @@
                                             <userDefinedRuntimeAttribute type="number" keyPath="delay">
                                                 <real key="value" value="2"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="scrollsToLeft" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="scrollsToLeft" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thw-Vz-KHf" customClass="NewsTickerLabel" customModule="NewsTickerLabel">
