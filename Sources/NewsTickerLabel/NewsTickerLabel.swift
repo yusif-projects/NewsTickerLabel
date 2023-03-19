@@ -16,8 +16,8 @@ import UIKit
     @IBInspectable public var fontName: String = "Helvetica Neue"
     @IBInspectable public var fontSize: CGFloat = 17
     @IBInspectable public var padding: CGFloat = 8
-    @IBInspectable public var duration: Double = 5
-    @IBInspectable public var delay: Double = 0
+    @IBInspectable public var duration: CGFloat = 5
+    @IBInspectable public var delay: CGFloat = 0
     @IBInspectable public var scrollsToLeft: Bool = true
     
     private var backgroundView: UIView!
