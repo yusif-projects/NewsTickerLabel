@@ -53,6 +53,28 @@ You can find a [demo application](https://github.com/yusif-projects/NewsTickerLa
 - Customize the parameters in the ***attributes inspector***.
 - Connect the **NewsTickerLabel** object to your controller by creating an outlet.
 
+```swift
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var newsTickerLabel: NewsTickerLabel!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+}
+```
+
+- In the ***viewDidAppear*** call the **activate()** method of your **NewsTickerLabel** object.
+
+```swift
+override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+
+    newsTickerLabel.activate()
+}
+```
+
 ## License
 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
