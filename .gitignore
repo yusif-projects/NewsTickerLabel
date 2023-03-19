@@ -1,3 +1,18 @@
+#####
+# OS X temporary files that should never be committed
+#
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+.DS_Store
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+.Trashes
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+*.swp
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
