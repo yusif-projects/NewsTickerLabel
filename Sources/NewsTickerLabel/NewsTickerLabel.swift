@@ -11,14 +11,14 @@ import UIKit
     
     private var debugMode: Bool = false
     
-    @IBInspectable public var text: String = ""
-    @IBInspectable public var textColor: UIColor = .black
-    @IBInspectable public var fontName: String = "Helvetica Neue"
-    @IBInspectable public var fontSize: CGFloat = 17
-    @IBInspectable public var padding: CGFloat = 8
-    @IBInspectable public var duration: CGFloat = 5
-    @IBInspectable public var delay: CGFloat = 0
-    @IBInspectable public var scrollsToLeft: Bool = true
+    @IBInspectable var text: String = ""
+    @IBInspectable var textColor: UIColor = .black
+    @IBInspectable var fontName: String = "Helvetica Neue"
+    @IBInspectable var fontSize: CGFloat = 17
+    @IBInspectable var padding: CGFloat = 8
+    @IBInspectable var duration: CGFloat = 5
+    @IBInspectable var delay: CGFloat = 0
+    @IBInspectable var scrollsToLeft: Bool = true
     
     private var backgroundView: UIView!
     private var stackView: UIStackView!
@@ -125,7 +125,7 @@ import UIKit
         return frame.size.width
     }
     
-    public func activate() {
+    func activate() {
         let labelWidth = getLabelWidth()
         let width = getWidth() - padding * 2
         
