@@ -1,6 +1,6 @@
 # NewsTickerLabel
 
-NewsTickerLabel is a customizable UI element written in Swift that animates a label like it's a [news ticker](https://en.wikipedia.org/wiki/News_ticker).
+A customizable UI element written in Swift that animates a label like it's a [news ticker](https://en.wikipedia.org/wiki/News_ticker).
 
 ![Follow](https://img.shields.io/github/followers/yusif-projects?style=social)
 ![Star](https://img.shields.io/github/stars/yusif-projects/NewsTickerLabel?style=social)
@@ -16,8 +16,7 @@ To integrate using Apple's Swift package manager, add the following as a depende
 .package(url: "https://github.com/yusif-projects/NewsTickerLabel", .upToNextMajor(from: "1.0.0"))
 ```
 
-and then specify `"NewsTickerLabel"` as a dependency of the Target in which you wish to use NewsTickerLabel.
-Here's an example `PackageDescription`:
+Then specify `"NewsTickerLabel"` as a dependency of the Target in which you wish to use `NewsTickerLabel`. Here's an example `PackageDescription`:
 
 ```swift
 // swift-tools-version:5.5
@@ -42,14 +41,14 @@ let package = Package(
 
 ## 🏗 Usage
 
-You can find a [demo application](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of NewsTickerLabel.
+You can find a [demo application](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of `NewsTickerLabel`.
 
 ### Using UIStoryBoard Interface Builder
 
-- Drag and drop a **UIView** object from the ***object library***.
-- In the ***identity inspector*** change the class from **UIView** to **NewsTickerLabel**.
+- Drag and drop a `UIView` object from the ***object library***.
+- In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
 - Customize the parameters in the ***attributes inspector***.
-- Connect the **NewsTickerLabel** object to your controller by creating an outlet.
+- Connect the `NewsTickerLabel` object to your controller by creating an outlet.
 
 ```swift
 class ViewController: UIViewController {
@@ -63,7 +62,7 @@ class ViewController: UIViewController {
 }
 ```
 
-- In the ***viewDidAppear*** call the **activate()** method of your **NewsTickerLabel** object.
+- In the `viewDidAppear()` call the `activate()` method of your `NewsTickerLabel` object.
 
 ```swift
 override func viewDidAppear(_ animated: Bool) {
