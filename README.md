@@ -46,6 +46,9 @@ You can find a [example project](https://github.com/yusif-projects/NewsTickerLab
 ### Using UIStoryBoard Interface Builder
 
 - Drag and drop a `UIView` object from the ***object library***.
+
+<img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Object%20Library.png" width="300"/>
+
 - In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Custom%20Class.png" width="300"/>
