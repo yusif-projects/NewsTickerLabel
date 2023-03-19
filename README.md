@@ -1,0 +1,2 @@
+# NewsTickerLabel
+News Ticker Label
