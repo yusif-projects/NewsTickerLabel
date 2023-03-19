@@ -7,8 +7,11 @@
 # NewsTickerLabel
 
 A customizable UI element written in Swift that animates a label like it's a [news ticker](https://en.wikipedia.org/wiki/News_ticker).
+
 ✅ Supports UIStoryBoard Interface Builder!
+
 ✅ Animates only if text doen't fit the screen!
+
 ✅ Supports both left-to-right and right-to-left texts!
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Demo.gif" width="480"/>
