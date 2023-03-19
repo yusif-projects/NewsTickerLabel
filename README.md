@@ -7,9 +7,9 @@
 # NewsTickerLabel
 
 A customizable UI element written in Swift that animates a label like it's a [news ticker](https://en.wikipedia.org/wiki/News_ticker).
-- ✅ Supports UIStoryBoard Interface Builder!
-- ✅ Animates only if text doen't fit the screen!
-- ✅ Supports both left-to-right and right-to-left texts!
+✅ Supports UIStoryBoard Interface Builder!
+✅ Animates only if text doen't fit the screen!
+✅ Supports both left-to-right and right-to-left texts!
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Demo.gif" width="480"/>
 
@@ -50,19 +50,19 @@ You can find an [example project](https://github.com/yusif-projects/NewsTickerLa
 
 ### Example using UIStoryBoard Interface Builder:
 
-- Drag and drop a `UIView` object from the ***object library***.
+Drag and drop a `UIView` object from the ***object library***.
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Object%20Library.png" width="500"/>
 
-- In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
+In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Custom%20Class.png" width="300"/>
 
-- Customize the parameters in the ***attributes inspector***.
+Customize the parameters in the ***attributes inspector***.
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Custom%20Parameters.png" width="300"/>
 
-- Connect the `NewsTickerLabel` object to your controller by creating an outlet.
+Connect the `NewsTickerLabel` object to your controller by creating an outlet.
 
 ```swift
 class ViewController: UIViewController {
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
 }
 ```
 
-- In the `viewDidAppear()` call the `activate()` method of your `NewsTickerLabel` object.
+In the `viewDidAppear()` call the `activate()` method of your `NewsTickerLabel` object.
 
 ```swift
 override func viewDidAppear(_ animated: Bool) {
