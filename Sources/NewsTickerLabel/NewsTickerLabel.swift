@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable class NewsTickerLabel: UIView {
+@IBDesignable public class NewsTickerLabel: UIView {
     
     private var debugMode: Bool = false
     
@@ -24,7 +24,7 @@ import UIKit
     private var stackView: UIStackView!
     private var label: UILabel!
     
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         super.draw(rect)
         
         setupBackgroundView()
