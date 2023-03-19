@@ -8,6 +8,13 @@ A customizable UI element written in Swift that animates a label like it's a [ne
 ![Swift 5.5+](https://img.shields.io/badge/Swift-5.5%2B-orange.svg)
 ![License](https://img.shields.io/github/license/yusif-projects/NewsTickerLabel)
 
+<img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Demo.gif" width="480"/>
+
+- Customizable!
+- Interface builder supported!
+- Animates only if text doen't fit the screen!
+- Supports both left-to-right and right-to-left texts!
+
 ## 🚚 Installation
 
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
