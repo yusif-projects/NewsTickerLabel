@@ -41,13 +41,16 @@ let package = Package(
 
 ## 🏗 Usage
 
-You can find a [demo application](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of `NewsTickerLabel`.
+You can find a [example project](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of `NewsTickerLabel`.
 
 ### Using UIStoryBoard Interface Builder
 
 - Drag and drop a `UIView` object from the ***object library***.
 - In the ***identity inspector*** change the class from `UIView` to `NewsTickerLabel`.
 - Customize the parameters in the ***attributes inspector***.
+
+<img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Custom%20Parameters.png" width="150"/>
+
 - Connect the `NewsTickerLabel` object to your controller by creating an outlet.
 
 ```swift
