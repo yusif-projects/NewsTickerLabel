@@ -10,7 +10,7 @@ NewsTickerLabel is a customizable UI element written in Swift that animates a la
 ![Follow](https://img.shields.io/github/followers/yusif-projects?style=social)
 ![Star](https://img.shields.io/github/stars/yusif-projects/NewsTickerLabel?style=social)
 
-## Installation
+## 🚚 Installation
 
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
 
@@ -42,7 +42,7 @@ let package = Package(
 )
 ```
 
-## Usage
+## 🏗 Usage
 
 You can find a [demo application](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) that demonstrates the usage of NewsTickerLabel.
 
@@ -75,6 +75,6 @@ override func viewDidAppear(_ animated: Bool) {
 }
 ```
 
-## License
+## 📝 License
 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
