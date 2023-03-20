@@ -11,13 +11,28 @@ import UIKit
     
     private var debugMode: Bool = false
     
+    /// Text of the label.
     @IBInspectable public var text: String = ""
+    
+    /// Color of the label's text.
     @IBInspectable public var textColor: UIColor = .black
+    
+    /// Font name of the label.
     @IBInspectable public var fontName: String = "Helvetica Neue"
+    
+    /// Font size of the label.
     @IBInspectable public var fontSize: CGFloat = 17
+    
+    /// Both the distance from the screen edge and spacing between the label and its duplicate.
     @IBInspectable public var padding: CGFloat = 8
+    
+    /// Time the label takes to complete a loop.
     @IBInspectable public var duration: CGFloat = 5
+    
+    /// Both the time it takes the label to start animating initially and after a loop.
     @IBInspectable public var delay: CGFloat = 0
+    
+    /// Assign `true` for languages that are read from left to right and `false` for those that are read from right to left.
     @IBInspectable public var scrollsToLeft: Bool = true
     
     private var backgroundView: UIView!
@@ -125,6 +140,7 @@ import UIKit
         return frame.size.width
     }
     
+    /// Starts deciding whether the label fits the screen or not. Call this method in the `viewDidAppear()` of your controller.
     public func activate() {
         let labelWidth = getLabelWidth()
         let width = getWidth() - padding * 2
