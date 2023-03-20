@@ -10,7 +10,7 @@ A customizable UI element written in Swift that animates a label like it's a [ne
 
 ✅ Supports UIStoryBoard Interface Builder!
 
-✅ Animates only if text doen't fit the screen!
+✅ Animates only if text doesn't fit the screen!
 
 ✅ Supports both left-to-right and right-to-left texts!
 
