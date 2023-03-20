@@ -16,9 +16,16 @@ A customizable UI element written in Swift that animates a label like it's a [ne
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/Demo.gif" width="480"/>
 
-## 🚚 Installation
+# Table of contents
+* [🚚 Installation](#installation)
+  * [Manually](#installation-1)
+  * [Xcode](#installation-2)
+* [🏗 Usage](#usage)
+* [📝 License](#license)
 
-To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
+## 🚚 Installation <a name="installation"></a>
+
+To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`: <a name="installation-1"></a>
 
 ```swift
 .package(url: "https://github.com/yusif-projects/NewsTickerLabel", .upToNextMajor(from: "1.0.0"))
@@ -47,12 +54,12 @@ let package = Package(
 )
 ```
 
-### Or you can use Xcode's built-in tools:
+### Or you can use Xcode's built-in tools: <a name="installation-2"></a>
 
 - Step 1: Select your project from the ***project navigator***;
 - Step 2: Select your project from the ***project and targets list***;
 - Step 3: Select ***package dependencies tab***;
-- Step 4: Click the `➕` button;
+- Step 4: Click the `+` button;
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/SPM%20Step%201.png" width="500"/>
 
@@ -77,7 +84,7 @@ let package = Package(
 
 <img src="https://github.com/yusif-projects/NewsTickerLabel/blob/main/Images%20and%20Gifs/SPM%20Step%204.png" width="350"/>
 
-## 🏗 Usage
+## 🏗 Usage <a name="usage"></a>
 
 You can find an [example project](https://github.com/yusif-projects/NewsTickerLabel/tree/main/Example%20Project) in this repository that demonstrates the usage of `NewsTickerLabel`.
 
@@ -119,6 +126,6 @@ override func viewDidAppear(_ animated: Bool) {
 }
 ```
 
-## 📝 License
+## 📝 License  <a name="license"></a>
 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
